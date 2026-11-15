@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌱 TerraSpectra-AI
 
 ### Explainable Spectral Intelligence for Wheat Disease Detection
@@ -130,3 +131,7 @@ Day 1 established the backend development foundation for TerraSpectra-AI. The in
 ## 🚀 Project Vision
 
 To transform hyperspectral agricultural data into actionable intelligence by combining AI-based disease detection, spectral analysis, and explainable predictions to support smarter farming decisions.
+=======
+# Terraspectra-AI
+Early Detection of Fungal Blight in Wheat Using Hyperspectral Imaging &amp; Hybrid Deep Learning
+>>>>>>> ff05d31591d6b1ea67f706f380ac6228b8735008
