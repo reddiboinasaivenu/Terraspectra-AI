@@ -135,3 +135,103 @@ To transform hyperspectral agricultural data into actionable intelligence by com
 # Terraspectra-AI
 Early Detection of Fungal Blight in Wheat Using Hyperspectral Imaging &amp; Hybrid Deep Learning
 >>>>>>> ff05d31591d6b1ea67f706f380ac6228b8735008
+
+
+## 📅 Day 1 — Backend Development & FastAPI Project Setup
+
+**Role:** Backend Developer  
+**Technology Stack:** Python, FastAPI, Pydantic, Uvicorn
+
+### 1. Project Overview
+
+The primary objective of Day 1 was to establish the backend foundation using FastAPI. The work focused on creating a structured backend application, defining API schemas, developing basic REST API endpoints, and preparing the architecture for future machine-learning model predictions.
+
+### 2. Tasks Completed
+
+- **FastAPI Project Setup**
+  - Initialized the FastAPI backend project using Python.
+  - Configured the application entry point.
+  - Set up the development environment and required dependencies.
+  - Configured Uvicorn as the ASGI server.
+
+- **API Structure and Schemas**
+  - Designed a modular backend folder structure.
+  - Organized API routes, request handling, and response models.
+  - Created Pydantic schemas for request validation.
+  - Established a structured approach for managing API data.
+
+- **Basic API Development**
+  - Prepared basic REST API endpoints.
+  - Implemented HTTP request handling.
+  - Added structured JSON responses.
+  - Prepared endpoints for backend health checks and application status.
+
+- **Future Model Prediction Endpoint**
+  - Designed the initial API structure for machine-learning predictions.
+  - Planned request and response schemas for model inputs and outputs.
+  - Prepared the integration approach for connecting a trained model with the FastAPI backend.
+  - Established a foundation for future prediction services.
+
+### 3. Suggested Project Structure
+
+```text
+backend/
+│
+├── app/
+│   ├── main.py
+│   ├── api/
+│   │   └── routes.py
+│   ├── schemas/
+│   │   └── prediction.py
+│   ├── services/
+│   │   └── prediction_service.py
+│   └── core/
+│       └── config.py
+│
+├── requirements.txt
+└── README.md
+```
+
+### 4. Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Backend programming |
+| FastAPI | REST API development |
+| Pydantic | Request and response validation |
+| Uvicorn | Running the backend server |
+| JSON | API data exchange |
+
+### 5. Expected API Endpoints
+
+| HTTP Method | Endpoint | Purpose |
+|---|---|---|
+| GET | `/` | Welcome message |
+| GET | `/health` | Check backend status |
+| POST | `/predict` | Future model prediction integration |
+
+*Note: These are proposed endpoint designs. Update this section according to the endpoints actually implemented.*
+
+### 6. Challenges and Learning Outcomes
+
+- Understood the fundamentals of FastAPI application development.
+- Learned how to organize backend modules and API routes.
+- Understood request validation using Pydantic.
+- Gained knowledge of REST API architecture.
+- Learned how backend services can communicate with machine-learning models.
+
+### 7. Current Status
+
+The initial backend development plan and application structure were established. The API foundation was prepared for further development, including model integration and prediction functionality.
+
+### 8. Next Steps
+
+- Complete and test the API endpoints.
+- Implement detailed request and response validation.
+- Develop the prediction service.
+- Integrate the trained machine-learning model.
+- Test API functionality using Swagger UI and Postman.
+
+### 9. Conclusion
+
+Day 1 focused on establishing the backend development foundation using FastAPI. The project architecture, API organization, schema design, and future prediction integration approach were planned to support scalable backend development in the upcoming stages.
