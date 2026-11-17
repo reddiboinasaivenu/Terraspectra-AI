@@ -235,3 +235,71 @@ The initial backend development plan and application structure were established.
 ### 9. Conclusion
 
 Day 1 focused on establishing the backend development foundation using FastAPI. The project architecture, API organization, schema design, and future prediction integration approach were planned to support scalable backend development in the upcoming stages.
+
+## 📅 Day 3 — Frontend Development
+
+**Project:** TerraSpectra AI – Precision Agriculture & Crop Disease Detection  
+**Module:** Frontend Development  
+**Focus:** React Dashboard Development
+
+### 1. Objective
+
+The main objective of Day 3 was to begin frontend development by setting up the React application and designing a user-friendly dashboard for displaying crop disease prediction results, spectral analysis graphs, and machine learning model outputs.
+
+### 2. Tasks Performed
+
+**1. React Project Setup**
+- Set up the frontend development environment using React.
+- Organized the project structure for better code management.
+- Prepared the application for reusable component development.
+- Established the foundation for integrating frontend components with backend services.
+
+**2. Dashboard Layout Design**
+- Designed the initial dashboard structure.
+- Planned a clean and user-friendly interface.
+- Organized dashboard sections for displaying crop analysis information.
+- Created a layout suitable for presenting disease detection and prediction results.
+
+**3. Disease Prediction Components**
+- Planned reusable React components for displaying disease prediction results.
+- Structured result sections to present detected crop diseases.
+- Prepared the interface for displaying prediction labels and confidence scores.
+- Designed result components to make crop health information easier to understand.
+
+**4. Spectral Graphs and Model Results**
+- Added dashboard sections for spectral reflectance visualization.
+- Planned graph components for analyzing Visible and Near-Infrared (VNIR) spectral data.
+- Prepared sections for displaying Short-Wave Infrared (SWIR) analysis.
+- Organized model result sections for presenting AI-based crop health predictions.
+
+### 3. Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend application development |
+| JavaScript | Application functionality |
+| HTML5 | Dashboard structure |
+| CSS3 | Dashboard styling |
+| Git & GitHub | Version control |
+
+### 4. Expected Dashboard Modules
+
+- **Dashboard Overview:** Displays overall crop health information.
+- **Disease Prediction:** Presents detected crop diseases and prediction results.
+- **Spectral Analysis:** Displays spectral reflectance graphs.
+- **Model Results:** Presents machine learning prediction outputs.
+- **Analysis Interface:** Provides a structured view of crop assessment information.
+
+### 5. Outcome
+
+The Day 3 activities focused on establishing the frontend development foundation for TerraSpectra AI. The React project structure and dashboard design requirements were prepared, with dedicated sections planned for disease prediction, spectral visualization, and machine learning results.
+
+### 6. Next Steps
+
+- Complete the dashboard UI components.
+- Implement interactive spectral graphs.
+- Integrate backend APIs with the React frontend.
+- Connect disease prediction results to the dashboard.
+- Improve dashboard responsiveness and user experience.
+
+**Status:** Frontend development foundation and dashboard planning.
