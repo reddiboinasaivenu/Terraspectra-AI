@@ -303,3 +303,49 @@ The Day 3 activities focused on establishing the frontend development foundation
 - Improve dashboard responsiveness and user experience.
 
 **Status:** Frontend development foundation and dashboard planning.
+
+### Day 4: SWIR Coordinate Orientation Analysis
+
+#### Objective
+The objective of this task is to analyze the SWIR (Short-Wave Infrared) hyperspectral image and verify the correct orientation of leaf pixel coordinates. This helps ensure accurate identification and extraction of leaf regions from hyperspectral images for further spectral analysis and disease prediction.
+
+#### Tasks Performed
+- Loaded the SWIR hyperspectral image using the Spectral Python library.
+- Read the hyperspectral image from the `.hdr` file.
+- Calculated the mean intensity across all spectral bands to generate a 2D grayscale background image.
+- Loaded leaf pixel coordinates from the CSV file using Pandas.
+- Tested two coordinate orientations:
+  - **Orientation 1:** X = Column and Y = Row.
+  - **Orientation 2:** X = Row and Y = Column.
+- Plotted leaf coordinates over the grayscale SWIR image using Matplotlib.
+- Compared both orientations to identify the correct coordinate alignment.
+- Saved the coordinate orientation comparison image for further analysis.
+
+#### Technologies Used
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Spectral Python
+
+#### Input Files
+- `data/raw/SWIR_sample/01_D.hdr` – SWIR hyperspectral image.
+- `data/raw/SWIR_sample/01_D_leaf1.csv` – Leaf pixel coordinate data.
+
+#### Output Files
+- `data/processed/SWIR_coordinate_orientation_comparison.png` – Visualization comparing both coordinate orientations.
+
+#### Implementation Details
+1. Imported the required Python libraries.
+2. Loaded the SWIR hyperspectral image using `open_image()`.
+3. Generated a grayscale image by calculating the mean across spectral bands.
+4. Read the leaf coordinates from the CSV file.
+5. Visualized the coordinates using two different orientation approaches.
+6. Compared the visual outputs to check coordinate alignment.
+7. Exported the comparison visualization at 300 DPI.
+
+#### Expected Outcome
+The coordinate orientation comparison helps determine how the leaf coordinates align with the SWIR image. Correct coordinate alignment is important for accurate leaf-region extraction and reliable hyperspectral data processing.
+
+#### Conclusion
+Successfully implemented a SWIR coordinate orientation comparison workflow. Both coordinate arrangements were visualized and saved for evaluation. This analysis supports the next stages of hyperspectral preprocessing, leaf-region extraction, spectral feature analysis, and crop disease prediction.
