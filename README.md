@@ -349,3 +349,92 @@ The coordinate orientation comparison helps determine how the leaf coordinates a
 
 #### Conclusion
 Successfully implemented a SWIR coordinate orientation comparison workflow. Both coordinate arrangements were visualized and saved for evaluation. This analysis supports the next stages of hyperspectral preprocessing, leaf-region extraction, spectral feature analysis, and crop disease prediction.
+
+
+## 📅 Day 4 – Backend API Setup and Frontend Integration Preparation
+
+### 🎯 Objective
+To establish the backend API infrastructure using FastAPI, prepare request and response schemas, develop a mock prediction endpoint, and create the React dashboard interface. The objective is to prepare the system for future integration with the actual hyperspectral disease prediction model.
+
+### ✅ Tasks Completed / Planned Development
+
+**1. FastAPI Backend Setup**
+- Set up the FastAPI application.
+- Configure and run the backend server locally.
+- Create a `/health` endpoint to verify server availability.
+- Test the health-check functionality.
+
+**2. API Data Format and Schemas**
+- Prepare `schemas.py` using Pydantic request and response models.
+- Draft example API request and response formats.
+- Keep the schemas provisional until the model input and output specifications are confirmed by Sanjana.
+- Ensure agreement on field names and data types before integration.
+
+**3. Mock Prediction Endpoint**
+- Create a temporary `/predict` API endpoint.
+- Return sample prediction responses using clearly labelled mock values.
+- Use mock data only for frontend development and testing.
+- Ensure mock predictions are not presented as actual model predictions.
+
+**4. React Dashboard Development**
+- Set up the React frontend.
+- Design the main dashboard layout.
+- Develop reusable UI components.
+- Display sample prediction responses using mock data.
+- Prepare the dashboard for future backend and model integration.
+
+**5. Hyperspectral Image Tiling Test**
+- Develop an independent test to divide a sample array into smaller tiles.
+- Test the reconstruction process by combining the generated tiles.
+- Verify that the reconstructed output matches the original sample array.
+- Document the input, tiling process, and reconstructed output.
+
+**6. Future Model Integration**
+- Prepare the API and dashboard for integration with the actual hyperspectral disease prediction model.
+- Plan to replace mock responses with real model predictions once the model is ready.
+- Coordinate with Sanjana to confirm the model input shape, band order, preprocessing requirements, class labels, and output format.
+
+### 🛠️ Technologies and Tools
+- **Python** – Backend development.
+- **FastAPI** – REST API development.
+- **Pydantic** – Request and response validation.
+- **React.js** – Frontend dashboard development.
+- **NumPy** – Hyperspectral array and tiling operations.
+- **Mock Data** – Temporary API and dashboard testing.
+
+### 📦 Expected Deliverables
+- FastAPI backend server with a working `/health` endpoint.
+- Pydantic request and response schemas with documented examples.
+- Mock `/predict` endpoint with clearly labelled sample values.
+- React dashboard displaying sample API responses.
+- Independent hyperspectral image tiling and reconstruction test.
+- README documentation explaining backend and frontend installation and execution.
+
+### ⚠️ Dataset and Project Scope Considerations
+- The currently inspected sample contains controlled wheat-leaf hyperspectral imagery with VNIR/SWIR measurements.
+- Satellite scenes, field boundaries, GPS coordinates, and GeoTIFF georeferencing have not yet been confirmed.
+- GIS features should initially use sample arrays or clearly labelled mock coordinates.
+- Real farm maps, acreage calculations, and georeferenced risk maps must not be claimed as functional until supported by the dataset.
+- Mock heatmaps are only UI demonstrations and do not establish disease detection or model accuracy.
+- The three-week early-warning claim requires suitable time-based data and validation before it can be presented as proven.
+
+### 🔄 Integration Workflow
+The planned integration flow is:
+
+`Input → API → Model → Prediction Response → React Dashboard`
+
+- Coordinate with Sanjana to finalize model input and output specifications.
+- Share the proposed API request and response examples before finalizing the endpoint.
+- Agree on field names and data types.
+- Replace mock data with actual model outputs after model integration.
+- Test the complete end-to-end workflow.
+
+### 📌 Current Status
+Backend API preparation, frontend dashboard development, mock prediction testing, and tiling validation are the planned development activities for this stage. Final model integration depends on confirmation of the actual model specifications.
+
+### 🚀 Next Steps
+- Finalize API schemas with the model specifications.
+- Connect the actual hyperspectral prediction model.
+- Replace mock prediction responses with real model outputs.
+- Integrate the backend API with the React dashboard.
+- Perform end-to-end testing and validate prediction results.
