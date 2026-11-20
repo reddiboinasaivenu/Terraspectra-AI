@@ -438,3 +438,52 @@ Backend API preparation, frontend dashboard development, mock prediction testing
 - Replace mock prediction responses with real model outputs.
 - Integrate the backend API with the React dashboard.
 - Perform end-to-end testing and validate prediction results.
+
+
+## Day 5 — GIS Integration Planning and Dashboard Development
+
+### Objective
+To prepare the TerraSpectra-AI application for future GIS integration by developing an API and dashboard that can support hyperspectral sample data, mock coordinates, and visualization components without assuming that geospatial data is already available.
+
+### Work Completed
+
+**1. Dataset Assessment**
+- Reviewed the available controlled wheat-leaf hyperspectral sample.
+- Identified that the current sample contains VNIR/SWIR spectral measurements.
+- Recognized that satellite imagery, field boundaries, GPS coordinates, and GeoTIFF georeferencing have not yet been confirmed.
+- Identified the need to keep hyperspectral data processing separate from future GIS integration.
+
+**2. API Development Planning**
+- Prepared the API architecture to support sample arrays and future geospatial inputs.
+- Planned structured request and response formats for data exchange between the backend and frontend.
+- Prepared the integration approach for disease prediction results and visualization data.
+- Kept mock responses separate from actual model predictions.
+
+**3. Dashboard and GIS Visualization Planning**
+- Planned dashboard components for displaying hyperspectral analysis results.
+- Prepared the approach for visualizing sample coordinates.
+- Considered mock heatmaps for demonstrating the future GIS interface.
+- Designed the integration approach for future farm-level risk visualization.
+
+**4. Data Integrity and Validation**
+- Ensured that mock coordinates are clearly identified as demonstration data.
+- Avoided presenting mock heatmaps as actual disease detection results.
+- Identified the need for suitable geospatial datasets before implementing real farm mapping and acreage calculations.
+- Recognized that disease prediction accuracy requires independent model validation.
+
+### Important Project Limitations
+- The current sample is a controlled wheat-leaf hyperspectral image, not a confirmed satellite dataset.
+- Real farm boundaries and acreage calculations are not yet supported by verified geospatial data.
+- Mock heatmaps are UI demonstrations and do not demonstrate actual disease detection.
+- The three-week early-warning objective remains a project goal and has not been scientifically validated.
+
+### Next Steps
+- Complete backend API integration.
+- Connect the React dashboard with the backend.
+- Test API responses using sample arrays and clearly labelled mock coordinates.
+- Integrate verified GPS, satellite, or GeoTIFF data when available.
+- Develop and validate geospatial disease-risk visualization using appropriate datasets.
+- Evaluate early-warning performance using suitable time-based observations.
+
+### Current Status
+GIS integration planning and dashboard preparation are in progress. The application is being designed to support future geospatial capabilities while maintaining a clear distinction between demonstration features and validated model outputs.
