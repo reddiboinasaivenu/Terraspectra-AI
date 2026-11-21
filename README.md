@@ -487,3 +487,64 @@ To prepare the TerraSpectra-AI application for future GIS integration by develop
 
 ### Current Status
 GIS integration planning and dashboard preparation are in progress. The application is being designed to support future geospatial capabilities while maintaining a clear distinction between demonstration features and validated model outputs.
+
+
+## 📅 Day 6 — Integration Preparation
+
+### Objective
+Prepare the frontend and backend components for machine learning model integration by using temporary sample data, defining API input/output formats, organizing the project code, and maintaining the development work in GitHub.
+
+### Tasks Completed
+
+**1. Temporary Sample Data Integration**
+- Used temporary sample data to test the application while the actual machine learning model is under development.
+- Prepared sample input values and mock prediction responses for testing.
+- Ensured that temporary data is clearly identified as mock data and not actual model predictions.
+- Designed the application to support future integration with the trained machine learning model.
+
+**2. API Input and Output Coordination**
+- Reviewed the API requirements for communication between the frontend and backend.
+- Planned the request and response formats required for machine learning predictions.
+- Identified the input parameters required by the prediction API.
+- Discussed the expected response structure to ensure compatibility between frontend and backend components.
+- Kept the API format flexible until the final model input and output specifications are confirmed.
+
+**3. Code Organization**
+- Organized the project files and folders for better maintainability.
+- Separated frontend components, backend API logic, sample data, and supporting files.
+- Maintained a modular development structure to simplify future modifications.
+- Prepared the existing codebase for machine learning model integration.
+
+**4. GitHub Repository Management**
+- Reviewed the completed development work.
+- Prepared the updated project files for version control.
+- Used Git to track project changes and maintain the development history.
+- Prepared the completed work for pushing to the GitHub repository.
+
+### Technical Implementation
+
+| Component | Description |
+|---|---|
+| Sample Data | Temporary mock input and prediction values |
+| API Integration | Planned request and response structures |
+| Frontend | Prepared for API response integration |
+| Backend | Organized API logic for future model connection |
+| Code Structure | Modular and maintainable project organization |
+| GitHub | Version control and project updates |
+
+### Current Status
+- Temporary sample data is available for integration testing.
+- API input and output formats are under coordination.
+- Project code is organized for future integration.
+- The application structure is prepared for connecting the actual machine learning model.
+
+### Next Steps
+- Confirm the final API input and output formats with the machine learning team.
+- Integrate the trained machine learning model when it becomes available.
+- Replace temporary mock responses with actual model predictions.
+- Test frontend and backend communication.
+- Validate prediction responses and handle API errors.
+- Push the remaining completed changes to GitHub.
+
+### Conclusion
+Day 6 focused on preparing the project for machine learning integration. Temporary sample data and planned API structures help frontend and backend development continue without waiting for the final model. The organized codebase will make future integration, testing, and maintenance easier.
