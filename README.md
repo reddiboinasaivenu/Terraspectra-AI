@@ -548,3 +548,93 @@ Prepare the frontend and backend components for machine learning model integrati
 
 ### Conclusion
 Day 6 focused on preparing the project for machine learning integration. Temporary sample data and planned API structures help frontend and backend development continue without waiting for the final model. The organized codebase will make future integration, testing, and maintenance easier.
+
+
+## Day 7 – Model Endpoint Integration & End-to-End Testing
+
+### 1. Objective
+The main objective of Day 7 was to connect the machine learning model endpoint with the TerraSpectra frontend and backend, display prediction results, improve dashboard clarity, and test the complete application workflow using sample inputs.
+
+### 2. Work Completed
+
+**1. Model Endpoint Integration**
+- Connected the model prediction endpoint with the backend API.
+- Established communication between the frontend, backend, and machine learning service.
+- Prepared sample input data to verify the prediction workflow.
+- Ensured that prediction responses could be received and processed by the backend.
+
+**2. Prediction Results Display**
+- Integrated prediction results into the frontend dashboard.
+- Displayed model outputs in a clear and understandable format.
+- Organized prediction information to improve readability.
+- Added appropriate loading and result-handling states.
+
+**3. Error Handling**
+- Added basic error handling for API requests.
+- Handled invalid inputs and missing data.
+- Managed model endpoint connection failures.
+- Added meaningful error messages to help users understand problems.
+- Improved the handling of unsuccessful API responses.
+
+**4. Frontend and Backend Integration**
+- Connected frontend components with backend API routes.
+- Verified request and response communication.
+- Checked that sample inputs were correctly passed to the backend.
+- Ensured that prediction results were returned to the dashboard.
+
+**5. Dashboard Improvements**
+- Improved the dashboard layout and presentation.
+- Organized prediction outputs into clear sections.
+- Improved labels, spacing, and result visibility.
+- Focused on making the interface easier to understand and use.
+
+### 3. API Testing
+
+Performed basic API testing to verify the integration.
+
+Testing activities included:
+- Checking whether the backend API was accessible.
+- Sending sample prediction requests.
+- Verifying request payload formats.
+- Checking prediction responses.
+- Testing invalid and incomplete input scenarios.
+- Checking error responses when the model endpoint was unavailable.
+
+### 4. End-to-End Workflow Testing
+
+Tested the complete application workflow using sample inputs.
+
+**Workflow:**
+
+User Input → Frontend Dashboard → Backend API → Model Endpoint → Prediction Response → Frontend Results Display
+
+The testing focused on:
+- Successful data submission.
+- Correct communication between frontend and backend.
+- Model endpoint response handling.
+- Displaying prediction results.
+- Handling API errors and unexpected responses.
+
+### 5. Challenges and Solutions
+
+| Challenge | Solution |
+|---|---|
+| Model endpoint communication | Verified API request and response formats |
+| Invalid sample inputs | Added basic input validation |
+| API connection failures | Implemented error handling |
+| Unclear prediction presentation | Improved dashboard organization |
+| Integration issues | Tested frontend and backend communication |
+
+### 6. Outcome
+
+Day 7 focused on completing the frontend/backend integration and connecting the model prediction workflow. Basic API testing and end-to-end testing were performed using sample inputs. Error handling and dashboard improvements were also addressed to make the application more reliable and user-friendly.
+
+**Note:** Until the actual machine learning model is fully available, clearly labelled sample or mock predictions should be used for testing rather than presenting them as real model outputs.
+
+### 7. Next Steps
+- Integrate the finalized machine learning model.
+- Verify predictions using actual model outputs.
+- Perform more detailed API testing.
+- Improve prediction visualizations.
+- Continue dashboard optimization.
+- Prepare the application for final testing and deployment.
