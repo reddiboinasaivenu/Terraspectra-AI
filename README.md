@@ -638,3 +638,45 @@ Day 7 focused on completing the frontend/backend integration and connecting the 
 - Improve prediction visualizations.
 - Continue dashboard optimization.
 - Prepare the application for final testing and deployment.
+
+
+## 📅 Day 8 — FastAPI Backend Setup and API Development
+
+### Tasks Completed
+
+- Set up the FastAPI project environment to develop the backend API for the EconoCausal-DML application.
+- Created the required API folder structure to organize backend components, routes, and application logic.
+- Designed and prepared Pydantic schemas to define API request and response data formats.
+- Developed basic API endpoints to support backend communication and application functionality.
+- Prepared a dedicated prediction endpoint for future integration with the machine learning and Double Machine Learning models.
+- Organized the backend code to support future model integration and frontend communication.
+
+### Backend Development
+
+- Initialized the FastAPI application.
+- Created the main application entry point.
+- Structured API routes and schema definitions.
+- Prepared request validation and response handling.
+- Established the foundation for connecting the prediction model with the backend.
+
+### API Preparation
+
+- Designed the API structure for handling incoming prediction requests.
+- Prepared input and output schemas for consistent data exchange.
+- Created a prediction endpoint structure that can receive input data and return prediction results after model integration.
+- Kept the prediction functionality ready for future machine learning model integration.
+
+### Current Status
+
+- FastAPI backend project structure prepared.
+- API schemas and endpoint structure established.
+- Basic API development completed.
+- Future model prediction integration is ready for the next development stage.
+
+### Next Steps
+
+- Connect the trained machine learning model to the FastAPI backend.
+- Implement actual prediction logic in the prediction endpoint.
+- Test API requests and responses using sample inputs.
+- Integrate the backend API with the React frontend dashboard.
+- Handle errors and validate the complete prediction workflow.
