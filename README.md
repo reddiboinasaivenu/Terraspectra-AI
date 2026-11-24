@@ -680,3 +680,53 @@ Day 7 focused on completing the frontend/backend integration and connecting the 
 - Test API requests and responses using sample inputs.
 - Integrate the backend API with the React frontend dashboard.
 - Handle errors and validate the complete prediction workflow.
+
+
+## Day 9: Dashboard Development, API Integration & Model Evaluation
+
+### 1. Dashboard Development
+- Developed the main dashboard components to display model predictions and results.
+- Created a user-friendly interface to present important information clearly.
+- Organized dashboard elements for better visualization and easy navigation.
+- Added components to display prediction outputs and evaluation results.
+
+### 2. Frontend and Backend Integration
+- Connected the frontend application with the backend API.
+- Used temporary test responses to verify communication between frontend and backend.
+- Tested API requests and responses to ensure proper data exchange.
+- Coordinated and finalized the expected model API input and output formats.
+- Prepared the integration structure for connecting the final machine learning model.
+
+### 3. Model Evaluation
+- Evaluated the machine learning model using suitable held-out test data.
+- Generated a confusion matrix to analyze correct and incorrect predictions.
+- Calculated important classification performance metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-Score
+- Analyzed the evaluation results to understand the model's performance and reliability.
+
+### 4. Model Explainability
+- Explored suitable explainability techniques to understand model predictions.
+- Examined the contribution of input features to the prediction results.
+- Considered explainability methods such as SHAP or feature importance to improve model transparency.
+
+### 5. Testing and Validation
+- Tested the dashboard components with sample API responses.
+- Verified frontend and backend communication.
+- Checked the display of prediction results and evaluation metrics.
+- Identified areas for further improvements in dashboard usability and model performance.
+
+### 6. Outcome
+- Completed the initial development of the main dashboard components.
+- Established frontend and backend communication using test responses.
+- Defined the expected model API input and output structure.
+- Evaluated the machine learning model using appropriate performance metrics.
+- Explored model explainability to improve transparency and interpretability.
+
+### 7. Next Steps
+- Integrate the final trained machine learning model with the backend API.
+- Improve dashboard visualizations and prediction displays.
+- Perform additional testing with real-world data.
+- Optimize model performance based on evaluation results.
